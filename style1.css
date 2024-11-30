@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    z-index: 1;
+    color: seashell;
+    left: 0;
+}
+
+.navbar p {
+   position: relative;
+   color: whitesmoke;
+   text-decoration: none;
+   margin: 0 20px;
+   display: inline-block;
+   border: 2px solid black;
+   cursor: pointer;
+   margin-left: 15%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.container {
+    font-size: 26px;
+    padding-top: 60px;
+    border: 2px solid;
+    background-color: blanchedalmond;
+}
+
